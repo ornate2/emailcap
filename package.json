@@ -1,0 +1,24 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/mail-client": "^3.12.1",
+    "@sap/cds": "^7",
+    "@sendgrid/mail": "^8.1.1",
+    "express": "^4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.12",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7.7.2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}
