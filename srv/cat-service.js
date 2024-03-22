@@ -19,7 +19,7 @@ class CatalogService extends cds.ApplicationService {
 
             // Define mail configuration
             const mailConfig = {
-                from: 'elwin.purdy36@ethereal.email',
+                from: 'suraj.mishra@sumodigitech.com',
                 to: 'surajmishra4214@gmail.com',
                 subject: 'Order Confirmation',
                 text: `Thank you for your order of ${quantity} copy/copies of ${title}. Your order has been confirmed.`
