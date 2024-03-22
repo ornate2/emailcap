@@ -2,7 +2,7 @@
 const cds = require("@sap/cds");
 const { sendMail } = require('@sap-cloud-sdk/mail-client');
 
-
+//new branch
 
 class CatalogService extends cds.ApplicationService {
     init() {
